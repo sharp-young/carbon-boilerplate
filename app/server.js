@@ -14,4 +14,8 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+app.get('/sharp', (req, res) => {
+  res.render('sharp');
+});
+
 module.exports = app;
